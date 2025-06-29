@@ -54,7 +54,7 @@ export default function ContentCardsSection() {
       {/* Example: place a wavy line SVG/PNG at public/backgrounds/wavy-lines.svg */}
       <div
         className="absolute inset-0 bg-no-repeat bg-right-bottom opacity-20"
-        style={{ backgroundImage: 'url("/backgrounds/wavy-lines.svg")', backgroundSize: 'contain' }}
+        // style={{ backgroundImage: 'url("/backgrounds/wavy-lines.svg")', backgroundSize: 'contain' }}
       ></div>
 
       <div className="relative z-10 max-w-7xl mx-auto">

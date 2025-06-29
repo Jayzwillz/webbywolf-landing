@@ -42,10 +42,10 @@ export default function TabbedContentSection() {
     <section className="relative w-full bg-white py-16 px-4 md:py-20 lg:py-24 overflow-hidden">
       <div
         className="absolute inset-0 z-0 bg-no-repeat bg-right-top opacity-30"
-        style={{
-          backgroundImage: "url('/images/plus-pattern.svg')",
-          backgroundSize: 'contain',
-        }}
+        // style={{
+        //   backgroundImage: "url('/images/plus-pattern.svg')",
+        //   backgroundSize: 'contain',
+        // }}
       />
 
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-between gap-12 lg:gap-8 relative z-10">
