@@ -78,6 +78,9 @@ export default function Hero() {
             <p className="text-sm text-red-500">{errors.agree.message}</p>
           )}
         </form>
+        {isSubmitSuccessful && (
+  <p className="text-sm text-green-600">Submitted successfully!</p>
+)}
       </motion.div>
 
       {/* Right (angled image) */}

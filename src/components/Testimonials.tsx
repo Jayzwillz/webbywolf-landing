@@ -96,7 +96,7 @@ export default function Testimonials() {
                   index * itemsPerPage,
                   index * itemsPerPage + itemsPerPage
                 )
-                .map((testimonial, idx) => (
+                .map((testimonial) => (
                   <motion.div
                     key={testimonial.name}
                     className="bg-white rounded-lg p-6 pb-20 shadow-xl text-left relative w-full md:w-[48%] lg:w-[30%]"
